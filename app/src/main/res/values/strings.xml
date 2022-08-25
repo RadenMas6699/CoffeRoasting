@@ -1,3 +1,10 @@
+<!--
+  ~ Created by RadenMas on 25/8/2022.
+  ~ Copyright (c) 2022.
+  -->
+
 <resources>
     <string name="app_name">Coffe Roasting</string>
+    <string name="app_version">Versi %1$s</string>
+    <string name="greeting">Selamat %1$s</string>
 </resources>

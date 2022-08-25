@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by RadenMas on 25/8/2022.
+  ~ Copyright (c) 2022.
+  -->
+
+<!--
    Sample data extraction rules file; uncomment and customize as necessary.
    See https://developer.android.com/about/versions/12/backup-restore#xml-changes
    for details.
