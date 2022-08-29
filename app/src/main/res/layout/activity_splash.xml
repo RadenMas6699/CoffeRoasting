@@ -51,5 +51,5 @@
         android:layout_marginBottom="32dp"
         android:fontFamily="@font/roboto"
         android:textColor="@color/white"
-        android:textSize="12sp" />
+        android:textSize="14sp" />
 </RelativeLayout>
