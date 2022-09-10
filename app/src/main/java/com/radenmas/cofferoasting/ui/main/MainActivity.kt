@@ -5,10 +5,12 @@
 
 package com.radenmas.cofferoasting.ui.main
 
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.radenmas.cofferoasting.databinding.ActivityLightroastBinding
 import com.radenmas.cofferoasting.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -25,10 +27,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         initView()
+
+
         onClick()
     }
 
     private fun onClick() {
+         b.btnlightroast.setOnClickListener {
+             startActivity(Intent(this,applicationInfo ::class.java))
+             finish()
+         }
 
     }
 

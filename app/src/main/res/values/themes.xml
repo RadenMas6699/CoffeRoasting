@@ -5,10 +5,10 @@
 
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.CoffeRoasting" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.CoffeRoasting" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/lighroast</item>
+        <item name="colorPrimaryVariant">@color/lighroast</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
