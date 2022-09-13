@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by RadenMas on 13/9/2022.
+  ~ Copyright (c) 2022.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.LightRoastActivity">
+
+    <com.github.anastr.speedviewlib.SpeedView
+        android:id="@+id/speedViewLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        app:sv_maxSpeed="205"
+        app:sv_minSpeed="0"
+        app:sv_unit="℃"
+        app:sv_unitTextSize="18sp"
+        app:sv_withTremble="false" />
+</LinearLayout>

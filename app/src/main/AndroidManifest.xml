@@ -23,16 +23,20 @@
         android:theme="@style/Theme.CoffeRoasting"
         tools:targetApi="31">
         <activity
-            android:name=".activity_lightroast"
+            android:name=".ui.MediumRoastActivity"
             android:exported="false" />
         <activity
-            android:name=".InfoAplikasiActivity"
+            android:name=".ui.DarkRoastActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name=".ui.LightRoastActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.splash.SplashActivity"
+            android:name=".ui.MainActivity"
+            android:theme="@style/Splash"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SplashActivity"
             android:exported="true"
             android:theme="@style/Splash">
             <intent-filter>
