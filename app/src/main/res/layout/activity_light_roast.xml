@@ -19,6 +19,9 @@
         android:layout_marginTop="16dp"
         app:sv_maxSpeed="205"
         app:sv_minSpeed="0"
+        app:sv_markColor="@color/black"
+        app:sv_withIndicatorLight="true"
+        app:sv_indicatorLightColor="@android:color/holo_red_light"
         app:sv_unit="℃"
         app:sv_unitTextSize="18sp"
         app:sv_withTremble="false" />
