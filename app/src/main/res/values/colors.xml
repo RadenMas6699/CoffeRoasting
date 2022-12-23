@@ -5,9 +5,10 @@
   -->
 
 <resources>
-    <color name="lighroast">#bc5e00</color>
-    <color name="mediumroast">#964b00</color>
-    <color name="darkroast">#783c00</color>
+    <color name="lighroast">#FFFFFFFF</color>
+    <color name="mediumroast">#FFFFFFFF</color>
+    <color name="darkroast">#FFFFFFFF</color>
+    <color name="manualroast">#FFFFFFFF</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>

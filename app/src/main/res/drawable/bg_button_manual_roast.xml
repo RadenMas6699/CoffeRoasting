@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~ Created by RadenMas on 13/9/2022.
+  ~ Created by RadenMas on 23/12/2022.
   ~ Copyright (c) 2022.
   -->
 
@@ -8,6 +8,6 @@
     <solid android:color="@color/white" />
     <corners android:radius="12dp" />
     <stroke
-        android:width="3dp"
+        android:width="2dp"
         android:color="@color/black" />
 </shape>

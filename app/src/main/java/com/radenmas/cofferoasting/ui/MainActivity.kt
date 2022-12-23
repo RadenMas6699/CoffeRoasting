@@ -30,16 +30,19 @@ class MainActivity : AppCompatActivity() {
 
     private fun onClick() {
 
-        b.btnLightRoast.setOnClickListener {
+        b.btnlightkroast.setOnClickListener {
             startActivity(Intent(this, LightRoastActivity::class.java))
         }
 
-        b.btnMediumRoast.setOnClickListener {
+        b.btnmediumRoast.setOnClickListener {
             startActivity(Intent(this, MediumRoastActivity::class.java))
         }
 
-        b.btnDarkRoast.setOnClickListener {
+        b.btndarkRoast.setOnClickListener {
             startActivity(Intent(this, DarkRoastActivity::class.java))
+        }
+        b.btnmanualRoast.setOnClickListener {
+            startActivity(Intent(this, ManualRoastactivity::class.java))
         }
     }
 

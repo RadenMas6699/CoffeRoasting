@@ -1,23 +1,21 @@
 /*
- * Created by RadenMas on 13/9/2022.
+ * Created by RadenMas on 23/12/2022.
  * Copyright (c) 2022.
  */
 
 package com.radenmas.cofferoasting.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import androidx.appcompat.app.AppCompatActivity
 import com.android.volley.Request
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.google.firebase.messaging.FirebaseMessaging
-import com.radenmas.cofferoasting.R
-import com.radenmas.cofferoasting.databinding.ActivityDarkRoastBinding
 import com.radenmas.cofferoasting.databinding.ActivityLightRoastBinding
 
-class DarkRoastActivity : AppCompatActivity() {
+class ManualRoastActivity : AppCompatActivity() {
 
     lateinit var b: ActivityLightRoastBinding
 
@@ -43,7 +41,7 @@ class DarkRoastActivity : AppCompatActivity() {
 
         FirebaseMessaging.getInstance().subscribeToTopic("user")
 
-        requestQueue = Volley.newRequestQueue(this@DarkRoastActivity)
+        requestQueue = Volley.newRequestQueue(this@ManualRoastActivity)
 
         val handler = Handler()
         val task: Runnable = object : Runnable {

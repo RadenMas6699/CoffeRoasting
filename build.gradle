@@ -1,11 +1,18 @@
-/*
+  /*
  * Created by RadenMas on 25/8/2022.
  * Copyright (c) 2022.
  */
 
 buildscript {
+    ext {
+        kotlin_version = '1.8.0-RC'
+    }
     dependencies {
         classpath 'com.google.gms:google-services:4.3.14'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+    repositories {
+        mavenCentral()
     }
 }
 

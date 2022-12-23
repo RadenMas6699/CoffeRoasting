@@ -8,33 +8,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bg_aplikasi"
     tools:context=".ui.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="@drawable/bg_splash"
-        android:paddingStart="16dp"
         android:gravity="center_vertical"
+        android:paddingStart="16dp"
         android:paddingEnd="16dp">
 
         <ImageView
-            android:layout_marginTop="32dp"
             android:id="@+id/imgProfile"
             android:layout_width="48dp"
             android:layout_height="48dp"
+            android:layout_marginTop="32dp"
             android:src="@drawable/ic_person" />
 
         <TextView
             android:id="@+id/tvHalo"
-            android:layout_alignTop="@id/imgProfile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignTop="@id/imgProfile"
             android:layout_marginStart="8dp"
             android:layout_toEndOf="@id/imgProfile"
-            android:fontFamily="@font/roboto"
+            android:fontFamily="@font/cavilant"
             android:text="Halo"
-            android:textColor="@color/white" />
+            android:textColor="@color/black" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -48,42 +48,71 @@
             android:textColor="@color/white" />
     </RelativeLayout>
 
-    <Button
-        android:id="@+id/btnLightRoast"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/bg_button_light"
-        android:fontFamily="@font/roboto_bold"
-        android:text="@string/light_roast"
-        android:textAllCaps="true"
-        android:textColor="@color/white" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/btnMediumRoast"
+        <Button
+            android:id="@+id/btnlightkroast"
+            android:layout_width="170dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_button_medium"
+            android:fontFamily="@font/roboto_bold"
+            android:text="light roast"
+            android:textAllCaps="true"
+            android:textColor="@color/black" />
+
+
+        <Button
+            android:id="@+id/btnmediumRoast"
+            android:layout_width="170dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_medium"
+            android:fontFamily="@font/roboto_bold"
+            android:text="medium roast"
+            android:textAllCaps="true"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="64dp"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btndarkRoast"
+        android:layout_width="167dp"
+        android:layout_height="165dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/bg_button_medium"
         android:fontFamily="@font/roboto_bold"
-        android:text="@string/medium_roast"
+        android:text="dark roast"
         android:textAllCaps="true"
-        android:textColor="@color/white" />
+        android:textColor="@color/black" />
 
-    <Button
-        android:id="@+id/btnDarkRoast"
-        android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/bg_button_dark"
-        android:fontFamily="@font/roboto_bold"
-        android:text="@string/dark_roast"
-        android:textAllCaps="true"
-        android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btnmanualRoast"
+            android:layout_width="170dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_button_medium"
+            android:fontFamily="@font/roboto_bold"
+            android:text="manual roast"
+            android:textAllCaps="true"
+            android:textColor="@color/black" />
+    </LinearLayout>
 </LinearLayout>
+
