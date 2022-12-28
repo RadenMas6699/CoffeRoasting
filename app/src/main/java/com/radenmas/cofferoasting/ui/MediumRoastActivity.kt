@@ -9,7 +9,6 @@ import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.google.firebase.messaging.FirebaseMessaging
 import com.radenmas.cofferoasting.databinding.ActivityLightRoastBinding
-import com.radenmas.cofferoasting.databinding.ActivityMediumRoastBinding
 
 class MediumRoastActivity : AppCompatActivity() {
 

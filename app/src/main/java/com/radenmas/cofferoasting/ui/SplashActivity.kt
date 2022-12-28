@@ -6,11 +6,9 @@
 package com.radenmas.cofferoasting.ui
 
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.radenmas.cofferoasting.R
 import com.radenmas.cofferoasting.databinding.ActivitySplashBinding

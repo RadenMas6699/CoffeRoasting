@@ -6,9 +6,7 @@
 package com.radenmas.cofferoasting.ui
 
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.radenmas.cofferoasting.databinding.ActivityMainBinding
 
@@ -42,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, DarkRoastActivity::class.java))
         }
         b.btnmanualRoast.setOnClickListener {
-            startActivity(Intent(this, ManualRoastactivity::class.java))
+            startActivity(Intent(this, ManualRoastActivity::class.java))
         }
     }
 

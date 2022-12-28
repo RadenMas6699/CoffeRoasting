@@ -10,4 +10,7 @@
     <string name="light_roast">LIGHT ROAST</string>
     <string name="medium_roast">MEDIUM ROAST</string>
     <string name="dark_roast">DARK ROAST</string>
+    <string name="manual_roast">Manual Roast</string>
+    <string name="halo">Halo</string>
+    <string name="pebri_andriansyah">Pebri Andriansyah</string>
 </resources>

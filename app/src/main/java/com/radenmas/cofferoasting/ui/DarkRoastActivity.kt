@@ -5,16 +5,14 @@
 
 package com.radenmas.cofferoasting.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import androidx.appcompat.app.AppCompatActivity
 import com.android.volley.Request
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.google.firebase.messaging.FirebaseMessaging
-import com.radenmas.cofferoasting.R
-import com.radenmas.cofferoasting.databinding.ActivityDarkRoastBinding
 import com.radenmas.cofferoasting.databinding.ActivityLightRoastBinding
 
 class DarkRoastActivity : AppCompatActivity() {
@@ -71,5 +69,4 @@ class DarkRoastActivity : AppCompatActivity() {
         */
 
     }
-}
 }
