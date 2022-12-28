@@ -38,8 +38,7 @@
             android:exported="false" />
         <activity
             android:name=".ui.MainActivity"
-            android:exported="false"
-            android:theme="@style/Splash" />
+            android:exported="false" />
         <activity
             android:name=".ui.SplashActivity"
             android:exported="true"

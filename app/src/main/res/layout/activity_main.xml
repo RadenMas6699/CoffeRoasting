@@ -4,6 +4,7 @@
   -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,8 +13,10 @@
     tools:context=".ui.MainActivity">
 
     <RelativeLayout
+        android:id="@+id/appBar"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:gravity="center_vertical"
         android:paddingStart="16dp"
         android:paddingEnd="16dp">
@@ -22,8 +25,8 @@
             android:id="@+id/imgProfile"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_marginTop="32dp"
-            android:src="@drawable/ic_person" />
+            android:src="@drawable/ic_person"
+            app:tint="@color/white" />
 
         <TextView
             android:id="@+id/tvHalo"
@@ -31,6 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_alignTop="@id/imgProfile"
             android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
             android:layout_toEndOf="@id/imgProfile"
             android:fontFamily="@font/cavilant"
             android:text="@string/halo"
@@ -48,10 +52,49 @@
             android:textColor="@color/white" />
     </RelativeLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tvJam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="12:34"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvJam"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="12 Des 2022"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSuhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:text="123"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="16dp"
         android:orientation="horizontal">
 
         <Button
