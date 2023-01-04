@@ -14,17 +14,17 @@ import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.google.firebase.messaging.FirebaseMessaging
 import com.radenmas.cofferoasting.databinding.ActivityLightRoastBinding
+import com.radenmas.cofferoasting.databinding.ActivityManualRoastBinding
 
 class ManualRoastActivity : AppCompatActivity() {
 
-    lateinit var b: ActivityLightRoastBinding
+    lateinit var b: ActivityManualRoastBinding
 
     private var requestQueue: RequestQueue? = null
     private var stringData: StringRequest? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        b = ActivityLightRoastBinding.inflate(layoutInflater)
+        b = ActivityManualRoastBinding.inflate(layoutInflater)
         val view = b.root
         setContentView(view)
 

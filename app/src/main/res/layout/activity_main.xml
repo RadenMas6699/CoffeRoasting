@@ -62,6 +62,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:fontFamily="@font/ccocogoose"
+            android:layout_marginTop="20dp"
             android:text="12:34"
             android:textColor="@color/white"
             android:textSize="24sp"
@@ -71,24 +73,29 @@
             android:id="@+id/tvTanggal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/ccocogoose"
             android:layout_below="@id/tvJam"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="20dp"
             android:text="12 Des 2022"
             android:textColor="@color/white"
             android:textSize="22sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/tvSuhu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="16dp"
-            android:text="123"
-            android:textColor="@color/white"
-            android:textSize="36sp"
-            android:textStyle="bold" />
+        <com.github.anastr.speedviewlib.SpeedView
+            android:id="@+id/speedViewLight"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="230dp"
+            app:sv_indicatorLightColor="@android:color/holo_red_light"
+            app:sv_markColor="@color/black"
+            app:sv_maxSpeed="205"
+            app:sv_minSpeed="0"
+            app:sv_unit="℃"
+            app:sv_unitTextSize="18sp"
+            app:sv_withIndicatorLight="true"
+            app:sv_withTremble="false" />
     </RelativeLayout>
 
     <LinearLayout
@@ -106,8 +113,9 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
+            android:textSize="20dp"
             android:background="@drawable/bg_button_medium"
-            android:fontFamily="@font/roboto_bold"
+            android:fontFamily="@font/fastup"
             android:text="@string/light_roast"
             android:textAllCaps="true"
             android:textColor="@color/black" />
@@ -119,8 +127,9 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
+            android:textSize="20dp"
             android:background="@drawable/bg_button_medium"
-            android:fontFamily="@font/roboto_bold"
+            android:fontFamily="@font/fastup"
             android:text="@string/medium_roast"
             android:textAllCaps="true"
             android:textColor="@color/black" />
@@ -140,8 +149,9 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
+            android:textSize="20dp"
             android:background="@drawable/bg_button_medium"
-            android:fontFamily="@font/roboto_bold"
+            android:fontFamily="@font/fastup"
             android:text="@string/dark_roast"
             android:textAllCaps="true"
             android:textColor="@color/black" />
@@ -153,8 +163,9 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
+            android:textSize="20dp"
             android:background="@drawable/bg_button_medium"
-            android:fontFamily="@font/roboto_bold"
+            android:fontFamily="@font/fastup"
             android:text="@string/manual_roast"
             android:textAllCaps="true"
             android:textColor="@color/black" />
