@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Created by RadenMas on 7/9/2022.
-  ~ Copyright (c) 2022.
-  -->
-
-<resources>
-    <declare-styleable name="lightroastView"></declare-styleable>
-</resources>
