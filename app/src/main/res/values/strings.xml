@@ -7,10 +7,11 @@
     <string name="app_name">Coffe Roasting</string>
     <string name="app_version">Versi %1$s</string>
     <string name="greeting">Selamat %1$s</string>
-    <string name="light_roast">LIGHT ROAST</string>
-    <string name="medium_roast">MEDIUM ROAST</string>
-    <string name="dark_roast">DARK ROAST</string>
+    <string name="light_roast">Light Roast</string>
+    <string name="medium_roast">Medium Roast</string>
+    <string name="dark_roast">Dark Roast</string>
     <string name="manual_roast">Manual Roast</string>
     <string name="halo">Halo</string>
     <string name="pebri_andriansyah">Pebri Andriansyah</string>
+    <string name="start">Mulai</string>
 </resources>

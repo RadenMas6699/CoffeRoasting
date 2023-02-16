@@ -85,6 +85,8 @@ class LightRoastActivity : AppCompatActivity() {
                     Request.Method.GET,
                     "http://192.168.4.1/",
                     { response ->
+
+
                         val temp = response.toString().toFloat()
                         b.speedViewLight.speedTo(temp)
                     },

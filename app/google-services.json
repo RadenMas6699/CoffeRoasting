@@ -1,13 +1,14 @@
 {
   "project_info": {
     "project_number": "548690259667",
+    "firebase_url": "https://coffee-roasting-23d51-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "coffee-roasting-23d51",
     "storage_bucket": "coffee-roasting-23d51.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:548690259667:android:323eb83a48211bb1702e26",
+        "mobilesdk_app_id": "1:548690259667:android:d1c0210361d92022702e26",
         "android_client_info": {
           "package_name": "com.radenmas.cofferoasting"
         }

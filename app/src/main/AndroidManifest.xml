@@ -4,10 +4,6 @@
     package="com.radenmas.cofferoasting">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -24,15 +20,6 @@
         android:theme="@style/Theme.CoffeRoasting"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-        <activity
-            android:name=".ui.ManualRoastActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.MediumRoastActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.DarkRoastActivity"
-            android:exported="false" />
         <activity
             android:name=".ui.LightRoastActivity"
             android:exported="false" />
