@@ -7,23 +7,11 @@ package com.radenmas.cofferoasting.ui
 
 import android.content.BroadcastReceiver
 import android.content.Context
-import android.os.CountDownTimer
-import android.os.Handler
-import android.widget.Toast
-import com.android.volley.Request
-import com.android.volley.RequestQueue
-import com.android.volley.toolbox.StringRequest
-import com.android.volley.toolbox.Volley
-import com.radenmas.cofferoasting.R
-import com.radenmas.cofferoasting.databinding.ActivityLightRoastBinding
-import java.text.SimpleDateFormat
-import java.util.*
-import kotlin.math.roundToInt
 import android.content.Intent
 import android.content.IntentFilter
 import android.os.Build
 import android.os.Bundle
-import android.view.View
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DataSnapshot
@@ -33,6 +21,8 @@ import com.google.firebase.database.ValueEventListener
 import com.google.firebase.messaging.FirebaseMessaging
 import com.radenmas.cofferoasting.databinding.ActivityMainBinding
 import com.radenmas.cofferoasting.service.TimerService
+import java.util.*
+import kotlin.math.roundToInt
 
 class MainActivity : AppCompatActivity() {
 

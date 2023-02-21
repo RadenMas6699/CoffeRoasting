@@ -67,6 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="32dp"
+            app:sv_indicator="NormalIndicator"
             app:sv_indicatorLightColor="@android:color/holo_red_light"
             app:sv_markColor="@color/black"
             app:sv_minSpeed="0"
@@ -78,7 +79,7 @@
             app:sv_unit="℃"
             app:sv_unitTextColor="@color/white"
             app:sv_unitTextSize="18sp"
-            app:sv_withIndicatorLight="true"
+            app:sv_withIndicatorLight="false"
             app:sv_withTremble="false" />
 
         <HorizontalScrollView
@@ -115,6 +116,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="56dp"
                     android:layout_marginStart="8dp"
+                    android:layout_marginEnd="16dp"
                     android:text="@string/dark_roast" />
             </LinearLayout>
         </HorizontalScrollView>
